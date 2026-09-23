@@ -50,8 +50,7 @@ def main():
     a=1.5
     b=7
     c=-1
-    result1 = (3*x - 9*y) / ( 2*a * (b - c))
-    
+    result1 = (3*x - 9*y) / ( 2*a * (b - c)) # (calculates result1 respecting PEMDAS principle)    
     print("Part 1: x = 27")
     print("Part 1: y = 1")
     print("Part 1: a = 1.5")
@@ -67,7 +66,7 @@ def main():
     # Your code for part 2 under this line and before the print statements
     x=5
     y=-3
-    result2= (x**2) * (y**4)
+    result2= (x**2) * (y**4) # (** signifies power)
     
     print("Part 2: x = 5")
     print("Part 2: y = -3")
@@ -82,7 +81,7 @@ def main():
     # Your code for part 3 under this line and before the print statements
     a=100 #(representing the total number of treats)
     b=13 # (the total number of dogs)  
-    result3 = a//b
+    result3 = a//b #(// uses integer divisionto get a whole number)
     
     print("Part 3: a = 100")
     print("Part 3: b = 13")
@@ -94,7 +93,7 @@ def main():
     # Part 4: Modulo
     # =============================================
     # Your code for part 4 under this line and before the print statements
-    result4 = a%b
+    result4 = a%b # ( % finds the remainder using Modulo)
     print("Part 4: result =",result4)
     
     # End of Part 4 ----------------------
